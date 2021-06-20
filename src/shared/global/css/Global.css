@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Open-sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.452) 3px 5px 10px;
+}
+
+.font-grey {
+  color: #4d4d4d
+}
+
+@media screen and (max-width: 760px) {}
