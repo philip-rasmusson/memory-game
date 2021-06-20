@@ -1,0 +1,72 @@
+.navbar-mobile-wrapper {
+  width: 100%;
+}
+
+.navbar-mobile-logo {
+  font-size: 5vw;
+  z-index: 300;
+  margin: 2vw 0;
+}
+
+.navbar-mobile-wrapper-inner {
+  z-index: 200;
+  padding: 4vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.burger-icon-wrapper {
+  z-index: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.burger-icon-wrapper div, .times-icon-wrapper div {
+  height: 1vw;
+  width: 9vw;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.burger-icon-line-1 {}
+
+.burger-icon-line-2 {}
+
+.burger-icon-line-3 {}
+
+.times-icon-wrapper {
+  display: grid;
+  grid-template: 7vw / 7vw;
+  height: 7vw;
+  z-index: 300;
+}
+
+.times-icon-line-1 {
+  transform: rotate(45deg);
+  justify-self: center;
+  align-self: center;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.times-icon-line-2 {
+  display: none;
+}
+
+.times-icon-line-3 {
+  justify-self: center;
+  align-self: center;
+  grid-column: 1;
+  grid-row: 1;
+  transform: rotate(135deg);
+}
+
+.navbar-mobile-menu-wrapper {
+  width: 70vw;
+  height: 100vh;
+  position: absolute;
+  transition: right 1s;
+  right: -70vw;
+  top: 0;
+}

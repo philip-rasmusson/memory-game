@@ -5,12 +5,28 @@
   padding: 0;
 }
 
-.box-shadow {
-  box-shadow: rgba(0, 0, 0, 0.452) 3px 5px 10px;
+/* Background colors */
+
+.bg-color-blue {
+  background-color: blue;
 }
+
+.bg-color-green {
+  background-color: rgb(124, 160, 124);
+}
+
+/* Font colors */
 
 .font-grey {
   color: #4d4d4d
+}
+
+.font-white {
+  color: #f1f1f1
+}
+
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.452) 3px 5px 10px;
 }
 
 @media screen and (max-width: 760px) {}
