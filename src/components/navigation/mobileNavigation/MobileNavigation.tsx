@@ -1,6 +1,7 @@
 import './MobileNavigation.css'
 import '../../../shared/global/css/Global.css'
 import { useState } from "react"
+import { MenuItems } from "../MenuItems"
 
 export const MobileNavigation = () => {
 
@@ -13,7 +14,7 @@ export const MobileNavigation = () => {
   }
 
   const menuSlideIn = () => {
-    return burgerIcon === 'burger' ? { right: '-80vw' } : { right: '0' }
+    return burgerIcon === 'burger' ? { right: '-100vw' } : { right: '0' }
   }
 
 
@@ -32,7 +33,9 @@ export const MobileNavigation = () => {
             <div className={burgerAnimation('line-2')}></div>
             <div className={burgerAnimation('line-3')}></div>
           </div>
-          <div className='navbar-mobile-menu-wrapper bg-color-green' style={menuSlideIn()}></div>
+          <div className='navbar-mobile-menu-wrapper bg-color-green' style={menuSlideIn()}>
+            {MenuItems()}
+          </div>
         </div>
       </div>
     </div>

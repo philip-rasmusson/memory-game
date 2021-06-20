@@ -63,10 +63,22 @@
 }
 
 .navbar-mobile-menu-wrapper {
-  width: 70vw;
+  width: 100vw;
   height: 100vh;
   position: absolute;
   transition: right 1s;
   right: -70vw;
   top: 0;
+}
+
+.navbar-mobile-menu-wrapper ul {
+  padding: 10vw 0 0 0;
+}
+
+.navbar-mobile-menu-wrapper li {
+  list-style: none;
+  text-transform: uppercase;
+  text-align: right;
+  padding: 10vw;
+  font-size: 5vw;
 }
