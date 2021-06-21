@@ -9,7 +9,6 @@ export const MobileNavigation = () => {
   const [menuTrans, setMenuTrans] = useState<any>('-20vw')
 
   const burgerAnimation = (input: string) => {
-
     return `${burgerIcon}-icon-${input}`
   }
 
